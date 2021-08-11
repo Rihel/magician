@@ -1,0 +1,31 @@
+.scroll-style(@hiddenX: true) {
+  & when (@hiddenX =true) {
+    overflow-x: hidden;
+  }
+
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    padding-left: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:window-inactive {
+    /* 当焦点不在当前区域滑块的状态 */
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    // border-left: none;
+  }
+}

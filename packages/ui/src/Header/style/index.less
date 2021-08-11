@@ -1,0 +1,83 @@
+@import '../../style/mixins/index.less';
+
+.@{lib-prefix}-header {
+  position: relative;
+  .flex(space-between, center);
+  width: 100%;
+  height: @header-height;
+  padding: 0 @space;
+  line-height: 1;
+  background-color: @primary-color;
+
+  &-left {
+    .flex(@align: center);
+
+    &__node {
+      .flex(@align: center);
+    }
+  }
+
+  &-logo {
+    position: relative;
+    .flex(@align: center);
+
+    &.has-left-node {
+      &::after {
+        position: absolute;
+        right: 10px;
+        width: 1px;
+        height: 15px;
+        background-color: rgba(255, 255, 255, 0.4);
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    &__inner {
+      display: block;
+      min-width: 100px;
+      margin-right: 20px;
+      color: #fff;
+      font-size: 20px;
+
+      img {
+        width: 100px;
+        height: auto;
+        vertical-align: middle;
+      }
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &-right {
+    .flex(@align: center);
+    color: #fff;
+  }
+
+  &-dropdown {
+    &__wrap {
+      box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.08),
+        0 9px 28px 0 rgba(0, 0, 0, 0.05), 0 12px 48px 16px rgba(0, 0, 0, 0.03);
+
+      .ant-dropdown-menu {
+        padding: 8px 0;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &-userbox {
+    margin-left: @space;
+    cursor: pointer;
+
+    &__username {
+      span:first-child {
+        margin-right: @space / 2;
+      }
+    }
+  }
+}

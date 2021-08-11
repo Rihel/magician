@@ -1,0 +1,38 @@
+{
+  "name": "@magician/icons",
+  "version": "1.0.0",
+  "description": "通用图标",
+  "keywords": [
+    "icons",
+    "magician-icons",
+    "react"
+  ],
+  "main": "lib/index",
+  "module": "es/index",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+
+  ],
+  "author": {
+    "name": "Rihel",
+    "email": "569843207@qq.com"
+  },
+  "license": "ISC",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "npx @svgr/cli -d src/ assets --ref"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "gitHead": "84123b1bdecb8c3d6d59ab56891d2e9fbb573280"
+}

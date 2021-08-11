@@ -1,0 +1,60 @@
+@import '../style/variables/index.less';
+@import '../style/mixins/index.less';
+
+.animation(fade, {
+    opacity: 0;
+  }
+
+  , {
+    opacity: 1;
+  }
+
+);
+
+.animation(fade-left, {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  , {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+);
+
+.animation(fade-right, {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  , {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+);
+
+.animation(fade-down, {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  , {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+);
+
+.animation(fade-up, {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  , {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+);

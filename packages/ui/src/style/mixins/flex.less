@@ -1,0 +1,8 @@
+.flex(@justify: flex-start; @align: flex-start; @hasFlex: false; ) {
+  & when(@hasFlex=false) {
+    display: flex;
+  }
+
+  align-items: @align;
+  justify-content: @justify;
+}

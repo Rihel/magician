@@ -1,0 +1,23 @@
+{
+  "name": "@magician/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index",
+  "module": "es/index",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
+  "author": {
+    "name": "Rihel",
+    "email": "569843207@qq.com"
+  },
+  "keywords": ["magician", "utils"],
+  "license": "ISC",
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "ramda": "^0.27.1"
+  }
+}

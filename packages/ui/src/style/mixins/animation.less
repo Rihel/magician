@@ -1,0 +1,27 @@
+.animation(@name, @from, @to) {
+  .@{name} {
+    &-enter {
+      @from();
+
+      &-active {
+        @to();
+      }
+    }
+
+    &-exit {
+      @to();
+
+      &-active {
+        @from();
+      }
+    }
+  }
+}
+
+.transition(@ease) {
+  transition: all 0.3s @ease;
+}
+
+.linear() {
+  .transition(linear);
+}
