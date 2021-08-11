@@ -39,6 +39,5 @@
     "react": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.2"
-  },
-  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
+  }
 }

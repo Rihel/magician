@@ -25,6 +25,5 @@
   "dependencies": {
     "change-case": "^4.1.2",
     "ramda": "^0.27.1"
-  },
-  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
+  }
 }
