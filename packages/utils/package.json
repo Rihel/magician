@@ -14,7 +14,10 @@
     "name": "Rihel",
     "email": "569843207@qq.com"
   },
-  "keywords": ["magician", "utils"],
+  "keywords": [
+    "magician",
+    "utils"
+  ],
   "license": "ISC",
   "dependencies": {
     "change-case": "^4.1.2",

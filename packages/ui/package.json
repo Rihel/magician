@@ -14,7 +14,13 @@
     "name": "Rihel",
     "email": "569843207@qq.com"
   },
-  "keywords": ["react", "component", "antd", "magician", "magician-ui"],
+  "keywords": [
+    "react",
+    "component",
+    "antd",
+    "magician",
+    "magician-ui"
+  ],
   "license": "ISC",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
