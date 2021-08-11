@@ -23,6 +23,7 @@
 npm install @magician/ui    # 组件库
 npm install @magician/hooks # hooks
 npm install @magician/utils # 工具库
+npm install @magician/icons # 图标库
 ```
 
 或
@@ -31,4 +32,5 @@ npm install @magician/utils # 工具库
 yarn add @magician/ui     # 组件库
 yarn add @magician/hooks  # hooks
 yarn add @magician/utils  # 工具库
+yarn add @magician/icons  # 图标库
 ```
