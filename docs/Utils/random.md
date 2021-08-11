@@ -1,7 +1,7 @@
 # 随机数据 Random
 
 ```js
-import { Random } from '@magician/utils';
+import { Random } from '@r-magician/utils';
 ```
 
 ## `genRangeNumber`生成指定范围内的某个数字
@@ -11,8 +11,8 @@ Random.genRangeNumber(min: number, max: number):number;
 ```
 
 ```jsx
-import { Random } from '@magician/utils';
-import { AntIcon } from '@magician/ui';
+import { Random } from '@r-magician/utils';
+import { AntIcon } from '@r-magician/ui';
 import React, { useState, useCallback, useEffect } from 'react';
 import { Button, Slider, Descriptions, Space } from 'antd';
 export default () => {
@@ -65,7 +65,7 @@ Random.genStr(size:number):string;
 ```
 
 ```jsx
-import { Random } from '@magician/utils';
+import { Random } from '@r-magician/utils';
 import React, { useState, useCallback, useEffect } from 'react';
 import { Button, Space } from 'antd';
 export default () => {
@@ -97,7 +97,7 @@ Random.genStr(hue: number, w:number,h:number, text: string, fontSize?:number):st
 - `fontSize`: 字体大小
 
 ```jsx
-import { Random } from '@magician/utils';
+import { Random } from '@r-magician/utils';
 import React, { useState, useCallback, useEffect } from 'react';
 import { Button, Space } from 'antd';
 export default () => {
@@ -146,7 +146,7 @@ Random.idGeneratorFactroy(storageKey?: string, options?: { step:number, storage:
   - `storage`: 存储器设置，默认`Localstorage`, 可设置 `sessionStorage` 或实现 `getItem` 和 `setItem`方法的对象
 
 ```js
-import { Random } from '@magician/utils';
+import { Random } from '@r-magician/utils';
 const genId = Random.idGeneratorFactroy();
 genId(); // 1
 genId(); // 2
@@ -193,8 +193,8 @@ Random.getOneFactroy(list:any[] = []): ()=>any
 - `list`: 待抽取数组
 
 ```jsx
-import { Random } from '@magician/utils';
-import { Grid } from '@magician/ui';
+import { Random } from '@r-magician/utils';
+import { Grid } from '@r-magician/ui';
 import React, { useState, useCallback, useEffect } from 'react';
 import { Button, Slider, Descriptions, Space, Alert } from 'antd';
 
@@ -274,8 +274,8 @@ Random.getOneFactroy(size:number, factroy:(id:number)=>any, level?:number): ()=>
 - `level`: 可选参数， 树的层级， 默认为 2
 
 ```jsx
-import { Random } from '@magician/utils';
-import { Grid } from '@magician/ui';
+import { Random } from '@r-magician/utils';
+import { Grid } from '@r-magician/ui';
 import React, { useState, useCallback, useEffect } from 'react';
 import { Button, Slider, Descriptions, Space, Typography } from 'antd';
 export default () => {

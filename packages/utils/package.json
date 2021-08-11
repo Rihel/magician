@@ -1,5 +1,5 @@
 {
-  "name": "@magician/utils",
+  "name": "@r-magician/utils",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index",
@@ -15,7 +15,7 @@
     "email": "569843207@qq.com"
   },
   "keywords": [
-    "magician",
+    "r-magician",
     "utils"
   ],
   "publishConfig": {

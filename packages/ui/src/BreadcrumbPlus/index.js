@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 
 import { Breadcrumb } from 'antd';
-import { Tree } from '@magician/utils';
+import { Tree } from '@r-magician/utils';
 import { bem } from '../utils/config';
 import classnames from 'classnames';
 import clone from 'ramda/es/clone';

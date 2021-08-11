@@ -6,7 +6,7 @@
 
 ```tsx
 import React from 'react';
-import { Iconfont } from '@magician/ui';
+import { Iconfont } from '@r-magician/ui';
 
 export default () => {
   return <Iconfont type="devops" style={{ fontSize: '30px' }} />;
@@ -17,7 +17,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Iconfont } from '@magician/ui';
+import { Iconfont } from '@r-magician/ui';
 import { Tooltip, Typography } from 'antd';
 
 const iconTypes = [

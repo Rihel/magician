@@ -8,7 +8,7 @@
 
 ```tsx
 import React from 'react';
-import { Grid } from '@magician/ui';
+import { Grid } from '@r-magician/ui';
 export default () => {
   return (
     <div>
@@ -26,7 +26,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Grid } from '@magician/ui';
+import { Grid } from '@r-magician/ui';
 import { Form, Input, Button, Row } from 'antd';
 export default () => {
   return (
@@ -72,7 +72,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Grid } from '@magician/ui';
+import { Grid } from '@r-magician/ui';
 import { Card, Button, Row, Input, Col, Space } from 'antd';
 
 const products = [

@@ -1,10 +1,10 @@
 {
-  "name": "@magician/icons",
+  "name": "@r-magician/icons",
   "version": "1.0.0",
   "description": "通用图标",
   "keywords": [
     "icons",
-    "magician-icons",
+    "r-magician-icons",
     "react"
   ],
   "main": "lib/index",

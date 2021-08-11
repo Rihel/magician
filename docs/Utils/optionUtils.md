@@ -1,7 +1,7 @@
 # 选项工具 OptionUtils
 
 ```js
-import { OptionsUtils } from '@magician/utils';
+import { OptionsUtils } from '@r-magician/utils';
 ```
 
 在很多表单会有各种选项场景，如下拉菜单、checkbox、radio 等，并要求展示所选择的文本内容。有些选项列表可能是从远程获取，为此，封装了该工具方法，生成 option 对象，对象提供便捷方法。
@@ -10,7 +10,7 @@ import { OptionsUtils } from '@magician/utils';
 
 ```jsx
 import React, { useState } from 'react';
-import { OptionUtils } from '@magician/utils';
+import { OptionUtils } from '@r-magician/utils';
 import { Select, Divider } from 'antd';
 const hobbyEnum = OptionUtils.createEnum(['GAME', 'DRAW', 'SPORT']);
 
@@ -52,8 +52,8 @@ export default () => {
 
 ```jsx
 import React, { useState, useRef } from 'react';
-import { OptionUtils, Random } from '@magician/utils';
-import { Loading } from '@magician/ui';
+import { OptionUtils, Random } from '@r-magician/utils';
+import { Loading } from '@r-magician/ui';
 import { Select, Divider } from 'antd';
 import { useRequest } from 'ahooks';
 

@@ -18,7 +18,7 @@ const { visible, confirmLoading, okHandle, open, close } =
 ```tsx
 import React from 'react';
 import { message, Form, Modal, Input, Button } from 'antd';
-import { useFloatLayer } from '@magician/hooks';
+import { useFloatLayer } from '@r-magician/hooks';
 
 const sleep = (time) => {
   return new Promise((resolve) => {
@@ -83,7 +83,7 @@ export default () => {
 ```tsx
 import React from 'react';
 import { message, Form, Row, Drawer, Input, Button } from 'antd';
-import { useFloatLayer } from '@magician/hooks';
+import { useFloatLayer } from '@r-magician/hooks';
 
 const sleep = (time) => {
   return new Promise((resolve) => {

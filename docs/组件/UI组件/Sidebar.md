@@ -5,8 +5,8 @@
  * iframe: 1000
  */
 import React from 'react';
-import { Sidebar, Iconfont } from '@magician/ui';
-import { Random } from '@magician/utils';
+import { Sidebar, Iconfont } from '@r-magician/ui';
+import { Random } from '@r-magician/utils';
 const iconTypes = [
   'bookmarkLine',
   'yapi',

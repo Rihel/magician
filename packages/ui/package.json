@@ -1,5 +1,5 @@
 {
-  "name": "@magician/ui",
+  "name": "@r-magician/ui",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index",
@@ -18,8 +18,8 @@
     "react",
     "component",
     "antd",
-    "magician",
-    "magician-ui"
+    "r-magician",
+    "r-magician-ui"
   ],
   "publishConfig": {
     "access": "public"
@@ -27,9 +27,9 @@
   "license": "MIT",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@magician/hooks": "^1.0.0",
-    "@magician/icons": "^1.0.0",
-    "@magician/utils": "^1.0.0",
+    "@r-magician/hooks": "^1.0.0",
+    "@r-magician/icons": "^1.0.0",
+    "@r-magician/utils": "^1.0.0",
     "ahooks": "^2.10.9",
     "antd": "^4.16.10",
     "bricks.js": "^1.8.0",

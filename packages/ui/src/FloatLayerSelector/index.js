@@ -8,7 +8,7 @@ import { Modal } from 'antd';
 import adjust from 'ramda/es/adjust';
 import always from 'ramda/es/always';
 import { fls } from './config';
-import { useFloatLayer } from '@magician/hooks';
+import { useFloatLayer } from '@r-magician/hooks';
 
 const bodyStyle = {
   maxHeight: '70vh',

@@ -7,7 +7,7 @@
 ## 淡入淡出
 
 ```tsx
-import { Transition } from '@magician/ui';
+import { Transition } from '@r-magician/ui';
 import React, { useState } from 'react';
 import { Button } from 'antd';
 
@@ -34,7 +34,7 @@ export default () => {
 ## 左移
 
 ```tsx
-import { Transition } from '@magician/ui';
+import { Transition } from '@r-magician/ui';
 import React, { useState } from 'react';
 import { Button } from 'antd';
 
@@ -61,7 +61,7 @@ export default () => {
 ## 右移
 
 ```tsx
-import { Transition } from '@magician/ui';
+import { Transition } from '@r-magician/ui';
 import React, { useState } from 'react';
 import { Button } from 'antd';
 
@@ -88,7 +88,7 @@ export default () => {
 ## 下移
 
 ```tsx
-import { Transition } from '@magician/ui';
+import { Transition } from '@r-magician/ui';
 import React, { useState } from 'react';
 import { Button } from 'antd';
 
@@ -115,7 +115,7 @@ export default () => {
 ## 上移
 
 ```tsx
-import { Transition } from '@magician/ui';
+import { Transition } from '@r-magician/ui';
 import React, { useState } from 'react';
 import { Button } from 'antd';
 

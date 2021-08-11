@@ -8,10 +8,10 @@
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
-import { Random } from '@magician/utils';
+import { Header } from '@r-magician/ui';
+import { Random } from '@r-magician/utils';
 export default () => {
-  const defaultLogo = Random.genImage(44, 100, 30, 'Magician', 12);
+  const defaultLogo = Random.genImage(44, 100, 30, 'r-magician', 12);
 
   return <Header username="lihai" logo={<img src={defaultLogo} />} />;
 };
@@ -23,9 +23,9 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 export default () => {
-  return <Header username="lihai" logo="Magician" />;
+  return <Header username="lihai" logo="r-magician" />;
 };
 ```
 
@@ -33,11 +33,11 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 
 export default () => {
   const LeftNode = <div style={{ color: '#fff' }}>Hello world!</div>;
-  return <Header username="lihai" logo="Magician" leftNode={LeftNode} />;
+  return <Header username="lihai" logo="r-magician" leftNode={LeftNode} />;
 };
 ```
 
@@ -45,10 +45,10 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 export default () => {
   const RightNode = <div style={{ color: '#fff' }}>Hello world!</div>;
-  return <Header username="lihai" logo="Magician" rightNode={RightNode} />;
+  return <Header username="lihai" logo="r-magician" rightNode={RightNode} />;
 };
 ```
 
@@ -56,10 +56,10 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 export default () => {
   const RightNode = (
-    <div logo="Magician" style={{ color: '#fff' }}>
+    <div logo="r-magician" style={{ color: '#fff' }}>
       Hello world!
     </div>
   );
@@ -76,7 +76,7 @@ export default () => {
   return (
     <Header
       username="lihai"
-      logo="Magician"
+      logo="r-magician"
       dropdownList={customDropdownList}
     />
   );
@@ -87,7 +87,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 export default () => {
   const LogoImage = (
     <img
@@ -109,12 +109,12 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@magician/ui';
+import { Header } from '@r-magician/ui';
 export default () => {
   return (
     <Header
       username="lihai"
-      logo="Magician"
+      logo="r-magician"
       logoLink="https://www.baidu.com"
       logoTooltip="我是tooltip"
     />

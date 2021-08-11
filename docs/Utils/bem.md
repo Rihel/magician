@@ -3,7 +3,7 @@
 [bem 规范](https://www.bemcss.com/)
 
 ```js
-import { createBem } from '@magician/utils';
+import { createBem } from '@r-magician/utils';
 
 // 传参指的是给所有加统一前缀
 const bem = createBem('hobby');

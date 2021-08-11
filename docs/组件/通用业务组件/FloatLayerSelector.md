@@ -53,8 +53,8 @@ import {
   Modal,
   Descriptions,
 } from 'antd';
-import { Grid } from '@magician/ui';
-import { useFloatLayer } from '@magician/hooks';
+import { Grid } from '@r-magician/ui';
+import { useFloatLayer } from '@r-magician/hooks';
 
 const genderOptions = [
   { label: 'man', value: 'man' },
@@ -224,7 +224,7 @@ import {
   Modal,
   Descriptions,
 } from 'antd';
-import { Grid, FloatLayerSelector } from '@magician/ui';
+import { Grid, FloatLayerSelector } from '@r-magician/ui';
 
 const genderOptions = [
   { label: 'man', value: 'man' },

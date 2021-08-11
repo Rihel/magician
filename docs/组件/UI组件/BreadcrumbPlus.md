@@ -8,7 +8,7 @@
 
 ```tsx
 import React, { useState, useMemo } from 'react';
-import { BreadcrumbPlus } from '@magician/ui';
+import { BreadcrumbPlus } from '@r-magician/ui';
 import {
   message,
   Button,

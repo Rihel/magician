@@ -29,7 +29,7 @@ import {
   IconSuccessful,
   IconTime,
   MenuLine,
-} from '@magician/icons';
+} from '@r-magician/icons';
 
 import Icon from '@ant-design/icons';
 import React from 'react';

@@ -16,7 +16,7 @@ export default () => {
 这个组件是做了层封装，可以通过指定 `type` 属性名称使用，命名格式为 `xxx-xxx`
 
 ```tsx
-import { AntIcon } from '@magician/ui';
+import { AntIcon } from '@r-magician/ui';
 import React from 'react';
 
 export default () => {
@@ -27,7 +27,7 @@ export default () => {
 ## Icon 选择器
 
 ```tsx
-import { AntIcon } from '@magician/ui';
+import { AntIcon } from '@r-magician/ui';
 import { Select, Space, Divider } from 'antd';
 import React, { useState } from 'react';
 

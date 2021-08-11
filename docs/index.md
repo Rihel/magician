@@ -1,6 +1,6 @@
 ---
 hero:
-  title: magician
+  title: r-magician
   desc: 基于 antd， ahooks 之上封装的 React 技术栈的开发套件
   actions:
     - text: 立即开始

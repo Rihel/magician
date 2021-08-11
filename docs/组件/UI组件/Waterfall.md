@@ -8,8 +8,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 import { Card } from 'antd';
-import { Waterfall } from '@magician/ui';
-import { Random } from '@magician/utils';
+import { Waterfall } from '@r-magician/ui';
+import { Random } from '@r-magician/utils';
 const { genArr, genStr, genImage, genRangeNumber, idGeneratorFactroy } = Random;
 const idCreactor = idGeneratorFactroy();
 const values = genArr(100, (i) => {

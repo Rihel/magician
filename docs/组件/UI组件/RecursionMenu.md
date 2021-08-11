@@ -2,10 +2,10 @@
 
 ```tsx
 import React from 'react';
-import { RecursionMenu } from '@magician/ui';
+import { RecursionMenu } from '@r-magician/ui';
 import { Menu } from 'antd';
 import { ContainerOutlined, AuditOutlined } from '@ant-design/icons';
-import { Random } from '@magician/utils';
+import { Random } from '@r-magician/utils';
 const { genTree, getOneFactroy, genRangeNumber, genStr } = Random;
 const iconsFactroy = require.context('@ant-design/icons', false, /.*\.js/);
 const icons = iconsFactroy

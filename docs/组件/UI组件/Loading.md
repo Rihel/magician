@@ -4,7 +4,7 @@
 
 ```jsx
 import React from 'react';
-import { Loading } from '@magician/ui';
+import { Loading } from '@r-magician/ui';
 
 export default () => {
   return <Loading />;

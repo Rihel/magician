@@ -5,7 +5,7 @@
 ```tsx
 import React, { useState } from 'react';
 import { Input, Button } from 'antd';
-import { useWatch } from '@magician/hooks';
+import { useWatch } from '@r-magician/hooks';
 export default () => {
   const [state, setState] = useState('');
 

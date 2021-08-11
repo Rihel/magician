@@ -1,4 +1,4 @@
-import { createBem } from '@magician/utils';
+import { createBem } from '@r-magician/utils';
 export const LibConfig = {
   classPrefix: 'mg',
 };
