@@ -18,10 +18,13 @@
     "magician",
     "utils"
   ],
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "dependencies": {
     "change-case": "^4.1.2",
     "ramda": "^0.27.1"
   },
-  "gitHead": "e34c1313cbb3a862ec947a40fe4e6656083fe465"
+  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
 }

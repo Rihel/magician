@@ -21,7 +21,10 @@
     "magician",
     "magician-ui"
   ],
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@magician/hooks": "^1.0.0",
@@ -37,5 +40,5 @@
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.2"
   },
-  "gitHead": "e34c1313cbb3a862ec947a40fe4e6656083fe465"
+  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
 }

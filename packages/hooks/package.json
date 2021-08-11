@@ -19,11 +19,14 @@
     "hooks",
     "magician"
   ],
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "dependencies": {
     "ahooks": "^2.10.9",
     "ramda": "^0.27.1",
     "react": "^17.0.2"
   },
-  "gitHead": "e34c1313cbb3a862ec947a40fe4e6656083fe465"
+  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
 }

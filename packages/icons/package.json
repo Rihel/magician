@@ -19,7 +19,8 @@
     "name": "Rihel",
     "email": "569843207@qq.com"
   },
-  "license": "ISC",
+
+  "license": "MIT",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
@@ -33,5 +34,5 @@
   "dependencies": {
     "react": "^17.0.2"
   },
-  "gitHead": "e34c1313cbb3a862ec947a40fe4e6656083fe465"
+  "gitHead": "d5c78fc7f0c4dc14606e20b2013981f54060dd1f"
 }
