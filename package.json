@@ -15,7 +15,7 @@
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
-    "release": "npm run build && npm publish",
+    "release": "npm run build && lerna publish --no-git-tag-version --no-push",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "clean": "lerna clean -y && rm -rf node_modules && rm -rf **/lib **/es",
