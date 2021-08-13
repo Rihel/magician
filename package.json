@@ -10,7 +10,7 @@
   "keywords": ["react", "hooks", "utils", "cli", "antd", "ramda"],
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "start": "dumi dev",
+    "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",

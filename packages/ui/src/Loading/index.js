@@ -2,9 +2,9 @@ import { Col, Row, Spin } from 'antd';
 
 import React from 'react';
 
-const Loading = ({ text }) => {
+const Loading = ({ text, ...props }) => {
   return (
-    <Row justify="center">
+    <Row justify="center" {...props} style={{ padding: '100px' }}>
       <Col>
         <Spin tip={text}></Spin>
       </Col>
