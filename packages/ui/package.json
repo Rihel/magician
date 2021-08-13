@@ -1,6 +1,6 @@
 {
   "name": "@r-magician/ui",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index",
   "module": "es/index",
@@ -27,9 +27,9 @@
   "license": "MIT",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@r-magician/hooks": "^1.0.0",
-    "@r-magician/icons": "^1.0.0",
-    "@r-magician/utils": "^1.0.0",
+    "@r-magician/hooks": "^1.0.1",
+    "@r-magician/icons": "^1.0.1",
+    "@r-magician/utils": "^1.0.1",
     "ahooks": "^2.10.9",
     "antd": "^4.16.10",
     "bricks.js": "^1.8.0",
@@ -39,5 +39,6 @@
     "react": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.2"
-  }
+  },
+  "gitHead": "e9d04772a17af927625c740c50d95c9fe4c1413a"
 }

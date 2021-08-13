@@ -1,6 +1,6 @@
 {
   "name": "@r-magician/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index",
   "module": "es/index",
@@ -27,5 +27,6 @@
     "ahooks": "^2.10.9",
     "ramda": "^0.27.1",
     "react": "^17.0.2"
-  }
+  },
+  "gitHead": "e9d04772a17af927625c740c50d95c9fe4c1413a"
 }

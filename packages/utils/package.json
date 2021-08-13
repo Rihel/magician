@@ -1,6 +1,6 @@
 {
   "name": "@r-magician/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index",
   "module": "es/index",
@@ -25,5 +25,6 @@
   "dependencies": {
     "change-case": "^4.1.2",
     "ramda": "^0.27.1"
-  }
+  },
+  "gitHead": "e9d04772a17af927625c740c50d95c9fe4c1413a"
 }
