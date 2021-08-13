@@ -4,7 +4,7 @@ import React from 'react';
 
 const Loading = ({ text, ...props }) => {
   return (
-    <Row justify="center" {...props} style={{ padding: '100px' }}>
+    <Row justify="center" {...props} style={{ padding: '101px' }}>
       <Col>
         <Spin tip={text}></Spin>
       </Col>
