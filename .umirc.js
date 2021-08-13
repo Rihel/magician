@@ -22,6 +22,13 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
+  navs: [
+    null,
+    {
+      title: 'Github',
+      path: 'https://github.com/Rihel/magician',
+    },
+  ],
   dynamicImport: {},
   lessLoader: {
     javascriptEnable: true,
