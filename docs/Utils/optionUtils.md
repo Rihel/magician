@@ -48,6 +48,52 @@ export default () => {
 };
 ```
 
+### 自定义枚举值
+
+```jsx
+import React, { useState } from 'react';
+import { OptionUtils } from '@r-magician/utils';
+import { Select, Divider } from 'antd';
+const hobbyEnum = OptionUtils.createEnum({
+  GAME: 1,
+  DRAW: 2,
+  SPORT: 3,
+});
+
+const hobbyOptions = OptionUtils.createOptions([
+  { label: '游戏', value: hobbyEnum.GAME },
+  { label: '绘画', value: hobbyEnum.DRAW },
+  { label: '运动', value: hobbyEnum.SPORT },
+]);
+
+export default () => {
+  const [value, setValue] = useState(hobbyEnum.GAME);
+  return (
+    <div>
+      当前值： {value}
+      <Divider />
+      当前文本： {hobbyOptions.getLabel(value)}
+      <Divider />
+      <Select
+        value={value}
+        style={{ width: 200 }}
+        onChange={(e) => setValue(e)}
+      >
+        {hobbyOptions.getOptions().map((item) => {
+          return (
+            <Select.Option key={item.value} value={item.value}>
+              {item.label}
+            </Select.Option>
+          );
+        })}
+      </Select>
+      <Divider />
+      {hobbyEnum.isGame(value) ? '你选择的是游戏' : '非游戏哈'}
+    </div>
+  );
+};
+```
+
 ### 远程处理
 
 ```jsx
@@ -128,7 +174,7 @@ interface Option {
 
 interface OptionConfig {
   // 数据源
- list: any[],
+ list: any[] | ,
  // 文案的key
  labelKey: string,
  // 值的key
@@ -169,10 +215,10 @@ resourceEnum.isHost('Host'); // => false
 
 ```ts
 interface EnumResult {
-  [key:string]: string
+  readonly [key:string]: string
   // xxx 指的是传入的数组
-  isXXX: (value)=>boolean
+  readonly isXXX: (value)=>boolean
 }
-OptionsUtils.createEnum(list:string[], constantMode = false) : EnumResult
+OptionsUtils.createEnum(list:string[] | {[key:string]: string | number}, constantMode = false) : EnumResult
 
 ```

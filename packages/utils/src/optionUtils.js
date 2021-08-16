@@ -30,16 +30,38 @@ const createOptions = (params) => {
   return res;
 };
 
-const createEnum = (list = [], constantMode = false) => {
-  const res = list
-    .map((item) => {
-      return constantMode ? changeCase.constantCase(item) : item;
-    })
-    .reduce((acc, val) => ({ ...acc, [val]: val }), {});
-  list.forEach((item) => {
-    const methodName = changeCase.camelCase(`is-${item}`);
-    res[methodName] = (v) => v === item;
-  });
+const createEnum = (list, constantMode = false) => {
+  if (!list) {
+    throw new TypeError('[OptionUtils.createEnum] list 不能为空');
+  }
+
+  const res = {};
+  const genMethodName = (key) => changeCase.camelCase(`is-${key}`);
+  const genName = (key) => (constantMode ? changeCase.constantCase(key) : key);
+
+  const append = (key, value) => {
+    // res[genName(key)] = value;
+    Object.defineProperty(res, genName(key), {
+      value,
+      writable: false,
+      enumerable: true,
+      configurable: false,
+    });
+    Object.defineProperty(res, genMethodName(key), {
+      value: (v) => v === value,
+      writable: false,
+      ennumerable: false,
+      configurable: false,
+    });
+  };
+  if (Array.isArray(list)) {
+    list.forEach((item) => append(item, item));
+  } else {
+    Object.keys(list).forEach((key) => {
+      append(key, list[key]);
+    });
+  }
+
   return res;
 };
 export default {
