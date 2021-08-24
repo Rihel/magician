@@ -14,5 +14,5 @@ export default {
       },
     ],
   ],
-  pkgs: ['icons', 'hooks', 'ui', 'utils'],
+  pkgs: ['hooks', 'ui', 'utils'],
 };

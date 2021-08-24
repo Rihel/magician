@@ -28,7 +28,6 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@r-magician/hooks": "^1.0.1",
-    "@r-magician/icons": "^1.0.1",
     "@r-magician/utils": "^1.0.1",
     "ahooks": "^2.10.9",
     "antd": "^4.16.10",

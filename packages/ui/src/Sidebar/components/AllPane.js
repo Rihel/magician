@@ -1,7 +1,6 @@
 import { Empty, Input, Row } from 'antd';
 import React, { useMemo, useRef, useState } from 'react';
-
-import AntIcon from '../../AntIcon';
+import { CloseOutlined } from '@ant-design/icons';
 import SideItem from './SideItem';
 import Waterfall from '../../Waterfall';
 import clone from 'ramda/es/clone';
@@ -66,7 +65,7 @@ const AllPane = ({ onClose, categories, ...props }) => {
           />
         </div>
         <div className={sidebarCls('all-pane-head__close')} onClick={onClose}>
-          <AntIcon type="close-outlined" />
+          <CloseOutlined />
         </div>
       </div>
       <div className={sidebarCls('all-pane-content')}>

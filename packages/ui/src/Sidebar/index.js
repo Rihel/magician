@@ -9,7 +9,7 @@ import React, {
 } from 'react';
 
 import AllPane from './components/AllPane';
-import AntIcon from '../AntIcon';
+import { BarsOutlined, RightOutlined } from '@ant-design/icons';
 import SideItem from './components/SideItem';
 import SidebarList from './components/SidebarList';
 import { SidebarProvider } from './context';
@@ -58,14 +58,11 @@ const Sidebar = forwardRef(
               <SideItem
                 text="全部产品"
                 collapsed={collapsed}
-                icon={<AntIcon type="bars-outlined" />}
+                icon={<BarsOutlined />}
                 contentClass={sidebarCls('all-content')}
                 className="all-item"
                 right={
-                  <AntIcon
-                    className={sidebarCls('all-right-icon')}
-                    type="right-outlined"
-                  />
+                  <RightOutlined className={sidebarCls('all-right-icon')} />
                 }
               />
             </div>
